@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/add-address/add-address",
+    "pages/base-map/base-map"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "map",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#e24242",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/add-address/add-address",
+        "iconPath": "images/address_gray.png",
+        "selectedIconPath": "images/address_red.png",
+        "text": "地址"
+      },
+      {
+        "pagePath": "pages/add-address/add-address",
+        "iconPath": "images/address_gray.png",
+        "selectedIconPath": "images/address_red.png",
+        "text": "待定"
+      }
+    ]
+  }
+}

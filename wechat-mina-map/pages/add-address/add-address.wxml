@@ -1,0 +1,11 @@
+<!--pages/add-address/add-address.wxml-->
+<view class='container'>
+  <view class='row' bindtap='choosePosition'>
+    <view class='location'>
+      <text>{{location != null ? location.title : '点击选取位置'}}</text>
+    </view>
+    <view class='arrow'>
+      <text> > </text>
+    </view>
+  </view>
+</view>
